@@ -22,7 +22,7 @@ public class ApplicationContextConfig {
     public InternalResourceViewResolver getViewResolver() {
         InternalResourceViewResolver viewResolver = new InternalResourceViewResolver();
  
-        viewResolver.setPrefix("/pages/");
+        viewResolver.setPrefix("/resource/pages/");
         viewResolver.setSuffix(".jsp");
  
         return viewResolver;
